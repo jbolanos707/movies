@@ -14,6 +14,10 @@ Ticket.prototype.matineeDiscount = function() {
 
 $(document).ready(function(){
 
+  $('#myCarousel').carousel({
+            interval: 2000
+        });
+
 $("form#movie1").submit(function(event) {
   event.preventDefault();
   var movieName = $('#movie1-title').text;
